@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="shortcut icon" href="../Imagenes/buchamb.png" type="image/x-icon">
+        <title>Buschamb</title>
+    </head>
+    <body>
+        <header>
+            <nav class="menu_principal">
+                <a id="regresar" href="../Index/Index.html">Regresar</a>
+            </nav>
+        </header>
+        
+        <h1 id="iniciarsesionh">Registro como empleador</h1>
+        <img id="logoiniciar" src="../Imagenes/buchamb.png" alt="logo">
+        <section class="bginiciar_sesion">
+            <fieldset id="formulario">
+            <form action="#" method="get" enctype="multipart/form-data">
+
+                <label for="">Nombre:</label>
+                <input type="text" name="nombre" required placeholder="Ingresar nombre">
+                 <div>
+                    <label for="">Genero:</label>
+                    <div>
+                        <input type = "radio" name="genero">Femenino
+                        <input type ="radio" name ="genero">Masculino
+                    </div>
+                </div>
+                <label for="">Ingresar edad:</label>
+                <input type="number" name="edad" required placeholder="Edad">
+                <label for="">Ingresar numero:</label>
+                <input type="tel" name="tel" required placeholder="Numero telefonico">
+                <label>Ingresa tu correo empresarial:</label>
+                <input type="email" name="mail" required placeholder="Correo Electronico">
+                <label>Ingresa tu contrasenia:</label>
+                <input type="password" name="pass" required placeholder="Contrasenia">
+                <label for="">Ingresar direccion:</label>
+                <input type="text" name="direccion" required placeholder="Direccion de la empresa">
+                <label for="">Organizacion:</label>
+                <select name="" id="">
+                    <option value=" "></option>
+                    <option value="Privada">Privada</option>
+                    <option value="Autonoma">Autonoma</option>
+                    <option value="Institucion_publica">Institucion publica</option>
+                </select>
+                
+                <label for="">Logo:</label>
+                <input type="file" name="img" id="">
+                
+                
+                <nav class = "inicio">
+                    <a id="perfil" href="../Index/perfil_empleador.html">Registrarse</a>
+                </nav>
+            </form>
+        </fieldset>
+        </section>
+
+        <footer>
+            <div class="contenido_flex" >
+                <img class = "footinfo" src="../Imagenes/buchamb.png" alt="Buchamb-Icon">
+                <div>
+                    <p>Buschamb es una plataforma que permite encontrar empleo a estudiantes mientras aún ejercen sus estudios.</p>
+                </div>
+                <address>
+                    Contacto: <a href="mailto:crisboj5@gmail.com">crisboj5@gmail.com</a>
+                </address>
+                <div class = "politicas">
+                    <p>Términos y Condiciones</p>
+                    <p>Privacidad</p>
+                    <p>2026 Todos los derechos reservados</p>
+                </div>   
+            </div>
+        </footer>
+    </body>
+</html>
